@@ -1,0 +1,19 @@
+{
+    "name": "mishabbk/php-api-client-example",
+    "description": "PHP Client example",
+    "authors": [
+        {
+            "name": "Misha",
+            "email": "mishabbk@gmail.com",
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ApiClientExample\\": "src/"
+        }
+    },
+    "require": {
+      "php": ">=7.2.0",
+      "guzzlehttp/guzzle": "~6"
+    }
+}
